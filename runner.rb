@@ -1,6 +1,6 @@
-require_relative './gol.rb'
-require_relative './gol/board.rb'
 require_relative './gol/parser.rb'
+require_relative './gol/world.rb'
+require_relative './gol/board.rb'
 
 ITERATIONS = 50
 
