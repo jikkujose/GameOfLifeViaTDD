@@ -1,7 +1,7 @@
 require_relative './test_helper.rb'
-require_relative '../gol.rb'
+require_relative '../gol/world.rb'
 
-class GoLTest < Minitest::Test
+class WorldTest < Minitest::Test
   def setup
     @g = GameOfLife::World
   end
