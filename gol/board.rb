@@ -5,6 +5,10 @@ module GameOfLife
       @hash.default = false
     end
 
+    def print
+      puts layout
+    end
+
     def layout
       rows.map do |i|
         columns.map do |k|
