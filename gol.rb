@@ -11,7 +11,7 @@ module GameOfLife
     end
 
     def next
-      @state.each do |o_coord, o_state|
+      @state.each do |o_coord, _|
         (surroundings(o_coord) + [o_coord]).each do |n_coord|
           computed_state = case neighbour_count(n_coord)
                            when 2
